@@ -1,0 +1,25 @@
+{
+  "name": "MegaChat Site",
+  "short_name": "MegaChat",
+  "description": "Connect and chat online and earn money",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "https://res.cloudinary.com/dovhxt8ye/image/upload/v1789054251/megachat_logo_icon_pwitwt.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://res.cloudinary.com/dovhxt8ye/image/upload/v1789054251/megachat_logo_icon_pwitwt.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
