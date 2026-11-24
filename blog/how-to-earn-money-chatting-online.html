@@ -1401,6 +1401,7 @@
       }
     }
   </style>
+  <link rel="stylesheet" href="/css/site-nav.css" />
 </head>
 <body>
 
@@ -1413,16 +1414,18 @@
         </div>
         <div class="header-logo-text">
           <div class="header-logo-name">MegaChat<span>.Site</span></div>
-          <div class="header-logo-tagline">Get paid to chat</div>
+          <div class="header-logo-tagline">Chat &amp; hotel reviews</div>
         </div>
       </a>
       <div class="header-right">
-        <nav class="header-nav" aria-label="Primary navigation">
+        <nav class="header-nav" id="primaryNav" aria-label="Primary navigation">
           <a href="/">Home</a>
+          <a href="/chat">Chat &amp; Earn</a>
+          <a href="/hotels">Hotel Reviews</a>
           <a href="/about">About</a>
           <a href="/how-it-works">How It Works</a>
           <a href="/faq">FAQ</a>
-          <a href="/blog" class="active">Blog</a>
+          <a href="/blog" class="active" aria-current="page">Blogs</a>
         </nav>
         <a href="https://lipahub.com/register.php?ref=MentorRoyalty" target="_blank" rel="noopener" class="header-cta">
           <i class="fas fa-user-plus" aria-hidden="true"></i>Sign Up
@@ -1507,7 +1510,7 @@
         <ul>
           <li><strong>Realistic earnings:</strong> KES 1,300–KES 6,500 per day ($10–$50) for active chatters; KES 50,000–KES 200,000 per month for top earners.</li>
           <li><strong>No experience needed:</strong> Basic English and a friendly attitude are enough to start.</li>
-          <li><strong>Startup cost:</strong> Legitimate platforms charge a one-time activation fee of $4 or less. Never pay more.</li>
+          <li><strong>Startup cost:</strong> Legitimate platforms charge a one-time activation fee of $5 or less. Never pay more.</li>
           <li><strong>Withdrawals:</strong> Instant to M-Pesa, minimum $5 (KES 650).</li>
           <li><strong>Avoid scams:</strong> Never share your M-Pesa PIN or OTP, and never pay large upfront fees.</li>
         </ul>
@@ -1625,9 +1628,9 @@
         <div class="step-box">
           <div class="step-number">2</div>
           <div class="step-content">
-            <h4>Activate Your Account ($4)</h4>
+            <h4>Activate Your Account ($5)</h4>
             <p>
-              Pay the one-time activation fee of $4 (around KES 520) via M-Pesa. This filters out scammers, verifies your identity, and unlocks full earning features. Never pay more than $10 on any platform — that's a scam signal.
+              Pay the one-time activation fee of $5 (around KES 520) via M-Pesa. This filters out scammers, verifies your identity, and unlocks full earning features. Never pay more than $10 on any platform — that's a scam signal.
             </p>
           </div>
         </div>
@@ -1668,7 +1671,7 @@
       <h3>🚩 Red flags that mean "run away"</h3>
 
       <ul>
-        <li><strong>Large upfront fees:</strong> Any platform asking for more than $10 to "activate," "verify," or "unlock" your account is a scam. Legitimate platforms charge small fees ($4 or less) as a spam filter — not as a business model.</li>
+        <li><strong>Large upfront fees:</strong> Any platform asking for more than $10 to "activate," "verify," or "unlock" your account is a scam. Legitimate platforms charge small fees ($5 or less) as a spam filter — not as a business model.</li>
         <li><strong>Requests for M-Pesa PIN or OTP:</strong> No legitimate platform will ever ask for your M-Pesa PIN, OTP code, or full banking details. Anyone who does is trying to steal your money.</li>
         <li><strong>"Guaranteed" income promises:</strong> If someone says "earn KES 10,000 per day guaranteed," it's a scam. Real income varies based on your activity — no platform can guarantee specific amounts.</li>
         <li><strong>No public withdrawal proofs:</strong> Real platforms have users posting their withdrawal receipts on social media. If you can't find a single verified withdrawal proof, walk away.</li>
@@ -1890,7 +1893,15 @@
   </article>
 
   <!-- ═══════════════ FOOTER ═══════════════ -->
-  <footer>
+    <aside class="task-callout" aria-label="Hotel reviews">
+    <a href="/hotels">
+      <span class="tc-icon"><i class="fas fa-hotel" aria-hidden="true"></i></span>
+      <span class="tc-text"><strong>Also earn by reviewing hotels.</strong> Pick a hotel, research it, write a helpful review and earn KSh 200–800 per approved review.</span>
+      <span class="tc-go">Browse hotels <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+    </a>
+  </aside>
+
+<footer>
     <div class="footer-inner">
       <a href="/" class="footer-logo" aria-label="MegaChat home">
         <div class="footer-logo-img">
@@ -1898,10 +1909,12 @@
         </div>
         <div>
           <div class="footer-logo-name">MegaChat<span>.Site</span></div>
-          <div class="footer-logo-sub">Get paid to chat</div>
+          <div class="footer-logo-sub">Chat &amp; hotel reviews</div>
         </div>
       </a>
       <nav class="footer-links" aria-label="Footer navigation">
+        <a href="/chat">Chat &amp; earn</a>
+        <a href="/hotels">Hotel reviews</a>
         <a href="/about">About</a>
         <a href="/how-it-works">How it works</a>
         <a href="/faq">FAQ</a>
@@ -1978,5 +1991,6 @@
       });
     }
   </script>
+  <script src="/js/site-nav.js"></script>
 </body>
 </html>

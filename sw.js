@@ -1,19 +1,35 @@
-const CACHE_NAME = "MegaChat-app-v1";
+const CACHE_NAME = "megachat-app-v3";
 
 /* Pre-cache: all main pages (clean URLs) + static assets */
 const FILES_TO_CACHE = [
   "/",
-  "/index.html",
+  "/chat",
+  "/hotels",
   "/blog",
   "/faq",
   "/about",
   "/how-it-works",
   "/privacy-policy",
   "/terms",
-  "/blog/how-to-earn-money-chatting-online",
-  "/blog/kelvin-success-story",
-  "/blog/withdraw-money-megachat-mpesa",
+  "/blog/avoid-online-job-scams",
   "/blog/chat-guidelines-for-beginners",
+  "/blog/how-to-earn-money-chatting-online",
+  "/blog/is-megachat-legit",
+  "/blog/kelvin-success-story",
+  "/blog/mpesa-side-hustles-2026",
+  "/blog/withdraw-money-megachat-mpesa",
+  "/css/landing.css",
+  "/css/chat.css",
+  "/css/hotels.css",
+  "/css/site-nav.css",
+  "/js/site-nav.js",
+  "/js/landing.js",
+  "/js/chats.js",
+  "/js/hotels.js",
+  "/assets/megachat-logo-160.webp",
+  "/assets/megachat-favicon-192.webp",
+  "/assets/hero-bg.webp",
+  "/assets/megachat-hero-1000.webp",
   "/manifest.json",
 ];
 

@@ -1322,6 +1322,7 @@
       }
     }
   </style>
+  <link rel="stylesheet" href="/css/site-nav.css" />
 </head>
 <body>
 
@@ -1334,16 +1335,18 @@
         </div>
         <div class="header-logo-text">
           <div class="header-logo-name">MegaChat<span>.Site</span></div>
-          <div class="header-logo-tagline">Get paid to chat</div>
+          <div class="header-logo-tagline">Chat &amp; hotel reviews</div>
         </div>
       </a>
       <div class="header-right">
-        <nav class="header-nav" aria-label="Primary navigation">
+        <nav class="header-nav" id="primaryNav" aria-label="Primary navigation">
           <a href="/">Home</a>
+          <a href="/chat">Chat &amp; Earn</a>
+          <a href="/hotels">Hotel Reviews</a>
           <a href="/about">About</a>
           <a href="/how-it-works">How It Works</a>
           <a href="/faq">FAQ</a>
-          <a href="/blog" class="active">Blog</a>
+          <a href="/blog" class="active" aria-current="page">Blogs</a>
         </nav>
         <a href="https://lipahub.com/register.php?ref=MentorRoyalty" target="_blank" rel="noopener" class="header-cta">
           <i class="fas fa-user-plus" aria-hidden="true"></i>Sign Up
@@ -1445,7 +1448,7 @@
       </p>
 
       <p>
-        He first heard about paid chatting from a classmate in a WhatsApp group. His reaction was the same as most people's: <strong>"Sounds too good to be true."</strong> He ignored it for two weeks. Then his rent was due, and he decided to risk the $4 activation fee.
+        He first heard about paid chatting from a classmate in a WhatsApp group. His reaction was the same as most people's: <strong>"Sounds too good to be true."</strong> He ignored it for two weeks. Then his rent was due, and he decided to risk the $5 activation fee.
       </p>
 
       <div class="quote-block">
@@ -1470,7 +1473,7 @@
       </p>
 
       <p>
-        "I almost gave up on day two," he admits. "I thought I'd been scammed and the $4 was gone."
+        "I almost gave up on day two," he admits. "I thought I'd been scammed and the $5 was gone."
       </p>
 
       <p>
@@ -1698,7 +1701,7 @@
     <!-- CTA -->
     <section class="cta-banner">
       <h3>Want results like Kelvin's?</h3>
-      <p>He started with the same $4 activation you can use today. The only difference is he showed up at 7 PM.</p>
+      <p>He started with the same $5 activation you can use today. The only difference is he showed up at 7 PM.</p>
       <a href="https://lipahub.com/register.php?ref=MentorRoyalty" class="btn-gold" target="_blank" rel="noopener">
         Start Your Own Story &nbsp;→
       </a>
@@ -1708,7 +1711,15 @@
   </article>
 
   <!-- ═══════════════ FOOTER ═══════════════ -->
-  <footer>
+    <aside class="task-callout" aria-label="Hotel reviews">
+    <a href="/hotels">
+      <span class="tc-icon"><i class="fas fa-hotel" aria-hidden="true"></i></span>
+      <span class="tc-text"><strong>Also earn by reviewing hotels.</strong> Pick a hotel, research it, write a helpful review and earn KSh 200–800 per approved review.</span>
+      <span class="tc-go">Browse hotels <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+    </a>
+  </aside>
+
+<footer>
     <div class="footer-inner">
       <a href="/" class="footer-logo" aria-label="MegaChat home">
         <div class="footer-logo-img">
@@ -1716,10 +1727,12 @@
         </div>
         <div>
           <div class="footer-logo-name">MegaChat<span>.Site</span></div>
-          <div class="footer-logo-sub">Get paid to chat</div>
+          <div class="footer-logo-sub">Chat &amp; hotel reviews</div>
         </div>
       </a>
       <nav class="footer-links" aria-label="Footer navigation">
+        <a href="/chat">Chat &amp; earn</a>
+        <a href="/hotels">Hotel reviews</a>
         <a href="/about">About</a>
         <a href="/how-it-works">How it works</a>
         <a href="/faq">FAQ</a>
@@ -1796,5 +1809,6 @@
       });
     }
   </script>
+  <script src="/js/site-nav.js"></script>
 </body>
 </html>

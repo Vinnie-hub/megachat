@@ -131,7 +131,7 @@
         "name": "Do legitimate online jobs ever require payment?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Some legitimate platforms charge a small one-time activation fee (typically $4 or less) as a spam filter. This is different from scams that demand large upfront payments (KES 1,000+), recurring fees, or payment to personal M-Pesa numbers. The safest rule: any fee over $10 or KES 1,300 should be treated as a red flag."
+          "text": "Some legitimate platforms charge a small one-time activation fee (typically $5 or less) as a spam filter. This is different from scams that demand large upfront payments (KES 1,000+), recurring fees, or payment to personal M-Pesa numbers. The safest rule: any fee over $10 or KES 1,300 should be treated as a red flag."
         }
       },
       {
@@ -1504,6 +1504,7 @@
       }
     }
   </style>
+  <link rel="stylesheet" href="/css/site-nav.css" />
 </head>
 <body>
 
@@ -1516,16 +1517,18 @@
         </div>
         <div class="header-logo-text">
           <div class="header-logo-name">MegaChat<span>.Site</span></div>
-          <div class="header-logo-tagline">Get paid to chat</div>
+          <div class="header-logo-tagline">Chat &amp; hotel reviews</div>
         </div>
       </a>
       <div class="header-right">
-        <nav class="header-nav" aria-label="Primary navigation">
+        <nav class="header-nav" id="primaryNav" aria-label="Primary navigation">
           <a href="/">Home</a>
+          <a href="/chat">Chat &amp; Earn</a>
+          <a href="/hotels">Hotel Reviews</a>
           <a href="/about">About</a>
           <a href="/how-it-works">How It Works</a>
           <a href="/faq">FAQ</a>
-          <a href="/blog" class="active">Blog</a>
+          <a href="/blog" class="active" aria-current="page">Blogs</a>
         </nav>
         <a href="https://lipahub.com/register.php?ref=MentorRoyalty" target="_blank" rel="noopener" class="header-cta">
           <i class="fas fa-user-plus" aria-hidden="true"></i>Sign Up
@@ -1660,7 +1663,7 @@
         </div>
         <div class="flag-body">
           <p>
-            Real platforms charge small one-time fees ($4 or less) — and only as a spam filter, not as a business model. Scammers ask for much larger amounts: KES 1,000, 2,500, 5,000, or more to "unlock your account," "verify your identity," or "activate premium features."
+            Real platforms charge small one-time fees ($5 or less) — and only as a spam filter, not as a business model. Scammers ask for much larger amounts: KES 1,000, 2,500, 5,000, or more to "unlock your account," "verify your identity," or "activate premium features."
           </p>
           <p>
             They'll often say this fee is <em>refundable</em>, or that it's "just a commitment deposit." It's not. Once you pay, they disappear.
@@ -1841,7 +1844,7 @@
           Scammers create websites that look almost identical to megachat.site (e.g., megachat.xyz, megachatjob.com, megachat.co.ke). They charge higher fees, take payments to personal numbers, and never actually pay users.
         </p>
         <p class="why">Why it works: Impersonating a trusted brand is incredibly effective.</p>
-        <p class="why">How to avoid: Always access MegaChat through the official URL: <strong>megachat.site</strong>. Never click links from WhatsApp, Telegram, or social media DMs. The activation fee is always <strong>$4</strong> via business Paybill — never more, never to a personal number.</p>
+        <p class="why">How to avoid: Always access MegaChat through the official URL: <strong>megachat.site</strong>. Never click links from WhatsApp, Telegram, or social media DMs. The activation fee is always <strong>$5</strong> via business Paybill — never more, never to a personal number.</p>
       </div>
 
       <!-- 4. Verify -->
@@ -1906,7 +1909,7 @@
       </h2>
 
       <p>
-        This is where most people get confused: "If all upfront fees are scams, why does MegaChat charge $4?"
+        This is where most people get confused: "If all upfront fees are scams, why does MegaChat charge $5?"
       </p>
 
       <p>
@@ -1914,7 +1917,7 @@
       </p>
 
       <ul>
-        <li><strong>Small fees filter out fake accounts.</strong> Without any fee, scammers, bots, and trolls would flood the platform within days. The $4 makes it expensive to create fake accounts at scale.</li>
+        <li><strong>Small fees filter out fake accounts.</strong> Without any fee, scammers, bots, and trolls would flood the platform within days. The $5 makes it expensive to create fake accounts at scale.</li>
         <li><strong>The fee covers real costs.</strong> Identity verification, anti-fraud systems, and payment processing all cost money.</li>
         <li><strong>It's a one-time fee, not a subscription.</strong> Legitimate platforms charge once. Scams charge repeatedly with new "fees" each time you try to withdraw.</li>
         <li><strong>It goes to a business Paybill.</strong> Real platforms use Safaricom business tills. Scams use personal numbers.</li>
@@ -2003,7 +2006,7 @@
 
       <h3>Do legitimate online jobs ever require payment?</h3>
       <p>
-        Some legitimate platforms charge a small one-time activation fee (typically $4 or less) as a spam filter. This is different from scams that demand large upfront payments (KES 1,000+), recurring fees, or payment to personal M-Pesa numbers. The safest rule: any fee over $10 or KES 1,300 should be treated as a red flag.
+        Some legitimate platforms charge a small one-time activation fee (typically $5 or less) as a spam filter. This is different from scams that demand large upfront payments (KES 1,000+), recurring fees, or payment to personal M-Pesa numbers. The safest rule: any fee over $10 or KES 1,300 should be treated as a red flag.
       </p>
 
       <h3>What is the most common M-Pesa scam in Kenya?</h3>
@@ -2111,7 +2114,15 @@
   </article>
 
   <!-- ═══════════════ FOOTER ═══════════════ -->
-  <footer>
+    <aside class="task-callout" aria-label="Hotel reviews">
+    <a href="/hotels">
+      <span class="tc-icon"><i class="fas fa-hotel" aria-hidden="true"></i></span>
+      <span class="tc-text"><strong>Also earn by reviewing hotels.</strong> Pick a hotel, research it, write a helpful review and earn KSh 200–800 per approved review.</span>
+      <span class="tc-go">Browse hotels <i class="fas fa-arrow-right" aria-hidden="true"></i></span>
+    </a>
+  </aside>
+
+<footer>
     <div class="footer-inner">
       <a href="/" class="footer-logo" aria-label="MegaChat home">
         <div class="footer-logo-img">
@@ -2119,10 +2130,12 @@
         </div>
         <div>
           <div class="footer-logo-name">MegaChat<span>.Site</span></div>
-          <div class="footer-logo-sub">Get paid to chat</div>
+          <div class="footer-logo-sub">Chat &amp; hotel reviews</div>
         </div>
       </a>
       <nav class="footer-links" aria-label="Footer navigation">
+        <a href="/chat">Chat &amp; earn</a>
+        <a href="/hotels">Hotel reviews</a>
         <a href="/about">About</a>
         <a href="/how-it-works">How it works</a>
         <a href="/faq">FAQ</a>
@@ -2198,5 +2211,6 @@
       });
     }
   </script>
+  <script src="/js/site-nav.js"></script>
 </body>
 </html>

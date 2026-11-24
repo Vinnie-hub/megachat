@@ -1,25 +1,62 @@
 {
+  "id": "/",
   "name": "MegaChat Site",
   "short_name": "MegaChat",
-  "description": "Connect and chat online and earn money",
+  "description": "Get paid to chat online or rate and review hotels. Withdraw to M-Pesa.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
+  "lang": "en",
   "background_color": "#ffffff",
-  "theme_color": "#0f766e",
+  "theme_color": "#2563eb",
+  "categories": [
+    "business",
+    "lifestyle",
+    "finance"
+  ],
   "icons": [
     {
-      "src": "https://res.cloudinary.com/dovhxt8ye/image/upload/v1789054251/megachat_logo_icon_pwitwt.png",
+      "src": "/assets/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "https://res.cloudinary.com/dovhxt8ye/image/upload/v1789054251/megachat_logo_icon_pwitwt.png",
+      "src": "/assets/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Chat & Earn",
+      "short_name": "Chat",
+      "url": "/chat",
+      "icons": [
+        {
+          "src": "/assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Hotel Reviews",
+      "short_name": "Hotels",
+      "url": "/hotels",
+      "icons": [
+        {
+          "src": "/assets/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }
